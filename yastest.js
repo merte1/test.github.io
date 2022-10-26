@@ -1,4 +1,4 @@
-define(['pipAPI', 'https://github.com/merte1/IAT/blob/main/yas.js'], function(APIConstructor, iatExtension){
+define(['pipAPI', 'https://raw.githubusercontent.com/merte1/IAT/main/yas.js'], function(APIConstructor, iatExtension){
     var API = new APIConstructor();
 
 	return iatExtension({
