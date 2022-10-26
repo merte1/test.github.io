@@ -53,9 +53,9 @@ var posWords = API.shuffle([
 		},	
 	attribute1 :
 		{
-			name : 'Bad',
+			name : 'Kötü',
 			title : {
-				media : {word : 'Bad'},
+				media : {word : 'Kötü'},
 				css : {color:'#0000FF','font-size':'1.8em'},
 				height : 4 //Used to position the "Or" in the combined block.
 			},
@@ -74,9 +74,9 @@ var posWords = API.shuffle([
 		},
 		attribute2 :
 		{
-			name : 'Good',
+			name : 'İyi',
 			title : {
-				media : {word : 'Good'},
+				media : {word : 'İyi'},
 				css : {color:'#0000FF','font-size':'1.8em'},
 				height : 4 //Used to position the "Or" in the combined block.
 			},
