@@ -1,28 +1,28 @@
 define(['pipAPI', 'https://merte1.github.io/yasminno.js'], function(APIConstructor, iatExtension){
     var API = new APIConstructor();
 var posWords = API.shuffle([
-            'Love', 'Cheer', 'Friend', 'Pleasure', 
-            'Adore', 'Cheerful', 'Friendship', 'Joyful', 
-            'Smiling','Cherish', 'Excellent', 'Glad', 
-            'Joyous', 'Spectacular', 'Appealing', 'Delight', 
-            'Excitement', 'Laughing', 'Attractive','Delightful', 
-            'Fabulous', 'Glorious', 'Pleasing', 'Beautiful', 
-            'Fantastic', 'Happy', 'Lovely', 'Terrific', 
-            'Celebrate', 'Enjoy', 'Magnificent', 'Triumph']);
+            'Aşk', 'Neşe', 'Arkadaş', 'Haz', 
+            'Hayran olmak', 'Neşeli', 'Dostluk', 'Neşeli', 
+            'Gülümseyen','Değer Vermek', 'Harika', 'Memnun', 
+            'Sevinçli', 'Muhteşem', 'Çekici', 'Zevk', 
+            'Heyecan', 'Gülüş', 'Cazibeli','Nefis', 
+            'Efsanevi', 'Şanlı', 'Sevimli', 'Güzel', 
+            'Harika', 'Mutlu', 'Latif', 'Olağanüstü', 
+            'Övmek', 'Hoşlanmak', 'Fevkalade', 'Zafer']);
   var negWords = API.shuffle([
-            'Abuse', 'Grief', 'Poison', 'Sadness', 
-            'Pain', 'Despise', 'Failure', 'Nasty', 
-            'Angry', 'Detest', 'Horrible', 'Negative', 
-            'Ugly', 'Dirty', 'Gross', 'Evil', 
-            'Rotten','Annoy', 'Disaster', 'Horrific',  
-            'Scorn', 'Awful', 'Disgust', 'Hate', 
-            'Humiliate', 'Selfish', 'Tragic', 'Bothersome', 
-            'Hatred', 'Hurtful', 'Sickening', 'Yucky']);
+            'Suistimal', 'Keder', 'Zehir', 'Üzgünlük', 
+            'Acı', 'Aşağılamak', 'Başarısızlık', 'Edepsiz', 
+            'Sinirli', 'Tiksinmek', 'Korkunç', 'Olumsuz', 
+            'Çirkin', 'Kirli', 'Çirkin', 'Fena', 
+            'Rezalet','Sinir Bozucu', 'Felaket', 'Ürkünç',  
+            'Tahkir', 'Berbat', 'İğrenç', 'Nefret', 
+            'Aşağılama', 'Bencil', 'Acıklı', 'Tedirgin', 
+            'Kin', 'Kırıcı', 'Bıktırıcı', 'İğrenç']);
 	return iatExtension({
 		category1 : {
-			name : 'Disabled Persons', //Will appear in the data.
+			name : 'Engelli Kişiler', //Will appear in the data.
 			title : {
-				media : {word : 'Disabled Persons'}, //Name of the category presented in the task.
+				media : {word : 'Engelli Kişiler'}, //Name of the category presented in the task.
 				css : {color:'#31940F','font-size':'1.8em'}, //Style of the category title.
 				height : 4 //Used to position the "Or" in the combined block.
 			}, 
@@ -36,9 +36,9 @@ var posWords = API.shuffle([
 			stimulusCss : {color:'#31940F','font-size':'1.8em'}
 		},	
 		category2 :	{
-			name : 'Abled Persons', //Will appear in the data.
+			name : 'Engelsiz Kişi', //Will appear in the data.
 			title : {
-				media : {word : 'Abled Persons'}, //Name of the category presented in the task.
+				media : {word : 'Engelsiz Kişi'}, //Name of the category presented in the task.
 				css : {color:'#31940F','font-size':'1.8em'}, //Style of the category title.
 				height : 4 //Used to position the "Or" in the combined block.
 			}, 
