@@ -5,7 +5,7 @@ var posWords = API.shuffle([
             'Hayran olmak', 'Neşeli', 'Dostluk', 'Neşeli', 
             'Gülümseyen','Değer Vermek', 'Harika', 'Memnun', 
             'Sevinçli', 'Muhteşem', 'Çekici', 'Zevk', 
-            'Heyecan', 'Gülüş', 'Cazibeli','Nefis', 
+            'Heyecan', 'Güleç', 'Cazibeli','Nefis', 
             'Efsanevi', 'Şanlı', 'Sevimli', 'Güzel', 
             'Harika', 'Mutlu', 'Latif', 'Olağanüstü', 
             'Övmek', 'Hoşlanmak', 'Fevkalade', 'Zafer']);
