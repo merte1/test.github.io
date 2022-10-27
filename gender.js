@@ -4,48 +4,48 @@ define(['pipAPI', 'https://merte1.github.io/yasminno.js'], function(APIConstruct
 	return iatExtension({
 
 		category1 : {
-			name : 'Career', //Will appear in the data.
+			name : 'Kariyer', //Will appear in the data.
 			title : {
-				media : {word : 'Career'}, //Name of the category presented in the task.
+				media : {word : 'Kariyer'}, //Name of the category presented in the task.
 				css : {color:'#31940F','font-size':'1.8em'}, //Style of the category title.
 				height : 4 //Used to position the "Or" in the combined block.
 			}, 
 			stimulusMedia : [ //Stimuli content as PIP's media objects
-            {word: 'Career'},
-				{word: 'Corporation'},
-				{word: 'Salary'},
-				{word: 'Office'},
-				{word: 'Professional'},
-				{word: 'Management'},
-				{word: 'Business'}
+            {word: 'Kariyer'},
+				{word: 'Kurum'},
+				{word: 'Maaş'},
+				{word: 'Ofis'},
+				{word: 'Profesyonel'},
+				{word: 'Yönetim'},
+				{word: 'İşletme'}
 			], 
 			//Stimulus css (style)
 			stimulusCss : {color:'#31940F','font-size':'1.8em'}
 		},	
 		category2 :	{
-			name : 'Family', //Will appear in the data.
+			name : 'Aile', //Will appear in the data.
 			title : {
-				media : {word : 'Family'}, //Name of the category presented in the task.
+				media : {word : 'Aile'}, //Name of the category presented in the task.
 				css : {color:'#31940F','font-size':'1.8em'}, //Style of the category title.
 				height : 4 //Used to position the "Or" in the combined block.
 			}, 
 			stimulusMedia : [ //Stimuli content as PIP's media objects
-           	{word: 'Wedding'},
-				{word: 'Marriage'},
-				{word: 'Parents'},
-				{word: 'Relatives'},
-				{word: 'Family'},
-				{word: 'Home'}, 
-				{word: 'Children'}
+           	{word: 'Düğün'},
+				{word: 'Evlilik'},
+				{word: 'Ebeveyn'},
+				{word: 'Akraba'},
+				{word: 'Aile'},
+				{word: 'Ev'}, 
+				{word: 'Çocuk'}
 			], 
 			//Stimulus css
 			stimulusCss : {color:'#31940F','font-size':'1.8em'}
 		},
 		attribute1 :
 		{
-			name : 'Male',
+			name : 'Erkek',
 			title : {
-				media : {word : 'Male'},
+				media : {word : 'Erkek'},
 				css : {color:'#0000FF','font-size':'1.8em'},
 				height : 4 //Used to position the "Or" in the combined block.
 			},
@@ -61,9 +61,9 @@ define(['pipAPI', 'https://merte1.github.io/yasminno.js'], function(APIConstruct
 		},
 		attribute2 :
 		{
-			name : 'Female',
+			name : 'Kadın',
 			title : {
-				media : {word : 'Female'},
+				media : {word : 'Kadın'},
 				css : {color:'#0000FF','font-size':'1.8em'},
 				height : 4 //Used to position the "Or" in the combined block.
 			},
