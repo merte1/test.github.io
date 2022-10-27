@@ -50,11 +50,11 @@ define(['pipAPI', 'https://merte1.github.io/yasminno.js'], function(APIConstruct
 				height : 4 //Used to position the "Or" in the combined block.
 			},
 			stimulusMedia : [ //Stimuli content as PIP's media objects
-            	{word: 'Ben'},
-				{word: 'Paul'},
-				{word: 'Daniel'},
-				{word: 'John'},
-				{word: 'Jeffrey'}
+            	{word: 'Berat'},
+				{word: 'Kemal'},
+				{word: 'Cengiz'},
+				{word: 'Ramiz'},
+				{word: 'Eren'}
 			],
 			//Stimulus css
 			stimulusCss : {color:'#0000FF','font-size':'2.3em'}
@@ -68,11 +68,11 @@ define(['pipAPI', 'https://merte1.github.io/yasminno.js'], function(APIConstruct
 				height : 4 //Used to position the "Or" in the combined block.
 			},
 			stimulusMedia : [ //Stimuli content as PIP's media objects
-          {word: 'Rebecca'},
-				{word: 'Michelle'},
-				{word: 'Emily'},
-				{word: 'Julia'},
-				{word: 'Anna'}
+          {word: 'Kübra'},
+				{word: 'Merve'},
+				{word: 'Esra'},
+				{word: 'Didem'},
+				{word: 'Burcu'}
 			],
 			//Stimulus css
 			stimulusCss : {color:'#0000FF','font-size':'2.3em'}
