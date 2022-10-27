@@ -142,12 +142,12 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 			remindError : true,
 
 			remindErrorText : '<p align="center" style="font-size:"0.6em"; font-family:arial">' +
-			'Eğer hata yaparsanız, kırmızı bir <font color="#ff0000"><b>X</b></font> will appear. ' +
-			'Press the other key to continue.<p/>',
+			'Eğer hata yaparsanızız, kırmızı bir <font color="#ff0000"><b>X</b></font> will appear. ' +
+			'Devam etmek için diğer tuşa basınız.<p/>',
 
 			remindErrorTextTouch : '<p align="center" style="font-size:"1.4em"; font-family:arial">' +
-			'Eğer hata yaparsanız, kırmızı bir <font color="#ff0000"><b>X</b></font> will appear. ' +
-			'Touch the other side to continue.<p/>',
+			'Eğer hata yaparsanızız, kırmızı bir <font color="#ff0000"><b>X</b></font> görünecektir. ' +
+			'Devam etmek için diğer tuşa basınız.<p/>',
 
 			errorCorrection : true, //Should participants correct error responses?
 			errorFBDuration : 500, //Duration of error feedback display (relevant only when errorCorrection is false)
@@ -184,7 +184,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 				'<br/>Sağ parmağını <b>I</b> tuşu üzerine koy kategoriye ait öğeleri seçmek için <font color="#0000ff">rightAttribute</font>.<br/><br/>' +
 				'Eğer bir hata yaparsan, kırmızı bir <font color="#ff0000"><b>X</b></font> görünecektir. ' +
 				'Devam etmek için diğer tuşa basınız.<br/>' +
-				'<u>Go as fast as you can</u> while being accurate.<br/><br/></p>'+
+				'<u>Mümkün olduğu kadar hızlı cevap veriniz </u> eşleştirme doğru olduğunda.<br/><br/></p>'+
 				'<p align="center"><b>Boşluk</b> tuşuna bas başlamaya hazır olduğunda.</font></p></div>',
 			instAttributePracticeTouch: [
 				'<div>',
@@ -195,9 +195,9 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 						'<br/>',
 						'Put a left finger over the the <b>left</b> green area for items that belong to the category <font color="#0000ff">leftAttribute</font>.<br/>',
 						'Put a right finger over the <b>right</b> green area for items that belong to the category <font color="#0000ff">rightAttribute</font>.<br/>',
-						'Items will appear one at a time.<br/>',
+						'Öğeler birer birer görünecektir.<br/>',
 						'<br/>',
-						'Eğer hata yaparsan, kırmızı bir <font color="#ff0000"><b>X</b></font> görünecektir. Touch the other side. <u>Go as fast as you can</u> while being accurate.',
+						'Eğer hata yaparsanız, kırmızı bir <font color="#ff0000"><b>X</b></font> görünecektir. Touch the other side. <u>Mümkün olduğu kadar hızlı cevap veriniz </u> eşleştirme doğru olduğunda.',
 					'</p>',
 					'<p align="center">Touch the <b>lower </b> green area to start.</p>',
 				'</div>'
@@ -208,11 +208,11 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 				'<p style="font-size:20px; text-align:left; vertical-align:bottom; margin-left:10px; font-family:arial">' +
 				'Sol parmağını  <b>E</b> üzerine koy kategoriye ait öğeleri seçmek için <font color="#336600">leftCategory</font>. ' +
 				'<br/>Sağ parmağını  <b>I</b> üzerine koy kategoriye ait öğeleri seçmek için <font color="#336600">rightCategory</font>.<br/>' +
-				'Items will appear one at a time.<br/><br/>' +
-				'Eğer hata yaparsanız, kırmızı bir <font color="#ff0000"><b>X</b></font> görünecektir. ' +
-				'Press the other key to continue.<br/>' +
-				'<u>Go as fast as you can</u> while being accurate.<br/><br/></p>'+
-				'<p align="center">Press the <b>space bar</b> when you are ready to start.</font></p></div>',
+				'Öğeler birer birer görünecektir.<br/><br/>' +
+				'Eğer hata yaparsanızız, kırmızı bir <font color="#ff0000"><b>X</b></font> görünecektir. ' +
+				'Devam etmek için diğer tuşa basınız.<br/>' +
+				'<u>Mümkün olduğu kadar hızlı cevap veriniz </u> eşleştirme doğru olduğunda.<br/><br/></p>'+
+				'<p align="center">Hazır olduğunda <b>boşluk tuşuna</b> bas.</font></p></div>',
 			instCategoriesPracticeTouch: [
 				'<div>',
 					'<p align="center">',
@@ -222,9 +222,9 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 						'<br/>',
 						'Put a left finger over the <b>left</b> green area for items that belong to the category <font color="#336600">leftCategory</font>.<br/>',
 						'Put a right finger over the <b>right</b> green area for items that belong to the category <font color="#336600">rightCategory</font>.<br/>',
-						'Items will appear one at a time.<br/>',
+						'Öğeler birer birer görünecektir.<br/>',
 						'<br/>',
-						'Eğer hata yaparsanız, kırmızı bir <font color="#ff0000"><b>X</b></font> will appear. Touch the other side. <u>Go as fast as you can</u> while being accurate.',
+						'Eğer hata yaparsanızız, kırmızı bir <font color="#ff0000"><b>X</b></font> will appear. Touch the other side. <u>Mümkün olduğu kadar hızlı cevap veriniz </u> eşleştirme doğru olduğunda.',
 					'</p>',
 					'<p align="center">Touch the <b>lower </b> green area to start.</p>',
 				'</div>'
@@ -236,10 +236,10 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 				'Use the <b>E</b> key for <font color="#336600">leftCategory</font> and for <font color="#0000ff">leftAttribute</font>.<br/>' +
 				'Use the <b>I</b> key for <font color="#336600">rightCategory</font> and for  <font color="#0000ff">rightAttribute</font>.<br/>' +
 				'Each item belongs to only one category.<br/><br/>' +
-				'Eğer hata yaparsanız, kırmızı bir <font color="#ff0000"><b>X</b></font> will appear. ' +
-				'Press the other key to continue.<br/>' + 
-				'<u>Go as fast as you can</u> while being accurate.<br/><br/></p>' +
-				'<p align="center">Press the <b>space bar</b> when you are ready to start.</font></p></div>',
+				'Eğer hata yaparsanızız, kırmızı bir <font color="#ff0000"><b>X</b></font> will appear. ' +
+				'Devam etmek için diğer tuşa basınız.<br/>' + 
+				'<u>Mümkün olduğu kadar hızlı cevap veriniz </u> eşleştirme doğru olduğunda.<br/><br/></p>' +
+				'<p align="center">Hazır olduğunda <b>boşluk tuşuna</b> bas.</font></p></div>',
 			instFirstCombinedTouch:[
 				'<div>',
 					'<p align="center">',
@@ -250,7 +250,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 					'<p align="left" style="margin-left:5px">',
 						'Put a left finger over the <b>left</b> green area for <font color="#336600">leftCategory</font> items and for <font color="#0000ff">leftAttribute</font>.</br>',
 						'Put a right finger over the <b>right</b> green area for <font color="#336600">rightCategory</font> items and for <font color="#0000ff">rightAttribute</font>.</br>',
-							'Eğer hata yaparsanız, kırmızı bir <font color="#ff0000"><b>X</b></font> will appear. Touch the other side. <u>Go as fast as you can</u> while being accurate.</br>',
+							'Eğer hata yaparsanızız, kırmızı bir <font color="#ff0000"><b>X</b></font> will appear. Touch the other side. <u>Mümkün olduğu kadar hızlı cevap veriniz </u> eşleştirme doğru olduğunda.</br>',
 						'</p>',
 						'<p align="center">Touch the <b>lower </b> green area to start.</p>',
 				'</div>'
@@ -263,8 +263,8 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 				'Use the <b>E</b> key for <font color="#336600">leftCategory</font> and for <font color="#0000ff">leftAttribute</font>.<br/>' +
 				'Use the <b>I</b> key for <font color="#336600">rightCategory</font> and for  <font color="#0000ff">rightAttribute</font>.<br/>' +
 				'Each item belongs to only one category.<br/><br/>' +
-				'<u>Go as fast as you can</u> while being accurate.<br/><br/></p>' +
-				'<p align="center">Press the <b>space bar</b> when you are ready to start.</font></p></div>',
+				'<u>Mümkün olduğu kadar hızlı cevap veriniz </u> eşleştirme doğru olduğunda.<br/><br/></p>' +
+				'<p align="center">Hazır olduğunda <b>boşluk tuşuna</b> bas.</font></p></div>',
 			instSecondCombinedTouch:[
 				'<div>',
 					'<p align="center"><u>Part blockNum of nBlocks</u></p>',
@@ -275,7 +275,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 						'Put a left finger over the <b>left</b> green area for <font color="#336600">leftCategory</font> items and for <font color="#0000ff">leftAttribute</font>.<br/>',
 						'Put a right finger over the <b>right</b> green area for <font color="#336600">rightCategory</font> items and for <font color="#0000ff">rightAttribute</font>.<br/>',
 						'<br/>',
-						'<u>Go as fast as you can</u> while being accurate.<br/>',
+						'<u>Mümkün olduğu kadar hızlı cevap veriniz </u> eşleştirme doğru olduğunda.<br/>',
 					'</p>',
 					'<p align="center">Touch the <b>lower </b> green area to start.</p>',
 				'</div>'
@@ -287,8 +287,8 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 				'<b>Watch out, the labels have changed position!</b><br/>' +
 				'Put the left finger on the <b>E</b> key for <font color="#336600">leftCategory</font>.<br/>' +
 				'Put the right finger on the <b>I</b> key for <font color="#336600">rightCategory</font>.<br/><br/>' +
-				'<u>Go as fast as you can</u> while being accurate.<br/><br/></p>' +
-				'<p align="center">Press the <b>space bar</b> when you are ready to start.</font></p></div>',
+				'<u>Mümkün olduğu kadar hızlı cevap veriniz </u> eşleştirme doğru olduğunda.<br/><br/></p>' +
+				'<p align="center">Hazır olduğunda <b>boşluk tuşuna</b> bas.</font></p></div>',
 			instSwitchCategoriesTouch: [
 				'<div>',
 					'<p align="center">',
@@ -299,9 +299,9 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 						'Watch out, the labels have changed position!<br/>',
 							'Put a left finger over the <b>left</b> green area for <font color="#336600">leftCategory</font> items.<br/>',
 							'Put a right finger over the <b>right</b> green area for <font color="#336600">rightCategory</font> items.<br/>',
-							'Items will appear one at a time.',
+							'Öğeler birer birer görünecektir.',
 							'<br/>',
-							'Eğer hata yaparsanız, kırmızı bir <font color="#ff0000"><b>X</b></font> will appear. Touch the other side. <u>Go as fast as you can</u> while being accurate.<br/>',
+							'Eğer hata yaparsanızız, kırmızı bir <font color="#ff0000"><b>X</b></font> will appear. Touch the other side. <u>Mümkün olduğu kadar hızlı cevap veriniz </u> eşleştirme doğru olduğunda.<br/>',
 						'</p>',
 						'<p align="center">Touch the <b>lower </b> green area to start.</p>',
 				'</div>'
