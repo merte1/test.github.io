@@ -50,7 +50,7 @@ define(['pipAPI', 'https://merte1.github.io/IAT-TR.js'], function(APIConstructor
 				height : 4 //Used to position the "Or" in the combined block.
 			},
 			stimulusMedia : [ //Stimuli content as PIP's media objects
-            	{word: 'Berat'},
+            	{word: 'Emrah'},
 				{word: 'Kemal'},
 				{word: 'Cengiz'},
 				{word: 'Ramiz'},
@@ -71,7 +71,7 @@ define(['pipAPI', 'https://merte1.github.io/IAT-TR.js'], function(APIConstructor
           {word: 'Kübra'},
 				{word: 'Merve'},
 				{word: 'Esra'},
-				{word: 'Didem'},
+				{word: 'Gözde'},
 				{word: 'Burcu'}
 			],
 			//Stimulus css
