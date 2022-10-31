@@ -178,7 +178,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 			// leftCategory, rightCategory, leftAttribute and rightAttribute, blockNum, nBlocks.
 			// Notice that this is HTML text.
 			instAttributePractice: '<div><p align="center" style="font-size:20px; font-family:arial">' +
-				'<font color="#000000"><u>Part blockNum of nBlocks </u><br/><br/></p>' +
+				'<font color="#000000"><u>Bölüm blockNum / nBlocks </u><br/><br/></p>' +
 				'<p style="font-size:20px; text-align:left; vertical-align:bottom; margin-left:10px; font-family:arial">' +
 				'Sol parmağını <b>E</b> tuşu üzerine koy kategoriye ait öğeleri seçmek için <font color="#0000ff">leftAttribute.</font>' +
 				'<br/>Sağ parmağını <b>I</b> tuşu üzerine koy kategoriye ait öğeleri seçmek için <font color="#0000ff">rightAttribute</font>.<br/><br/>' +
@@ -189,7 +189,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 			instAttributePracticeTouch: [
 				'<div>',
 					'<p align="center">',
-						'<u>Part blockNum of nBlocks</u>',
+						'<u>Bölüm blockNum / nBlocks</u>',
 					'</p>',
 					'<p align="left" style="margin-left:5px">',
 						'<br/>',
@@ -204,7 +204,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 			].join('\n'),
 
 			instCategoriesPractice: '<div><p align="center" style="font-size:20px; font-family:arial">' +
-				'<font color="#000000"><u>Part blockNum of nBlocks </u><br/><br/></p>' +
+				'<font color="#000000"><u>Bölüm blockNum / nBlocks </u><br/><br/></p>' +
 				'<p style="font-size:20px; text-align:left; vertical-align:bottom; margin-left:10px; font-family:arial">' +
 				'Sol parmağını  <b>E</b> üzerine koy kategoriye ait öğeleri seçmek için <font color="#336600">leftCategory</font>. ' +
 				'<br/>Sağ parmağını  <b>I</b> üzerine koy kategoriye ait öğeleri seçmek için <font color="#336600">rightCategory</font>.<br/>' +
@@ -216,7 +216,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 			instCategoriesPracticeTouch: [
 				'<div>',
 					'<p align="center">',
-						'<u>Part blockNum of nBlocks</u>',
+						'<u>Bölüm blockNum / nBlocks</u>',
 					'</p>',
 					'<p align="left" style="margin-left:5px">',
 						'<br/>',
@@ -231,7 +231,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 			].join('\n'),
 
 			instFirstCombined : '<div><p align="center" style="font-size:20px; font-family:arial">' +
-				'<font color="#000000"><u>Part blockNum of nBlocks </u><br/><br/></p>' +
+				'<font color="#000000"><u>Bölüm blockNum / nBlocks </u><br/><br/></p>' +
 				'<p style="font-size:20px; text-align:left; vertical-align:bottom; margin-left:10px; font-family:arial">' +
 				'<font color="#336600">leftCategory</font> ve <font color="#0000ff">leftAttribute</font> için <b>E</b> tuşunu kullanınız.<br/>' +
 				'<font color="#336600">rightCategory</font> ve <font color="#0000ff">rightAttribute</font> için  <b>I</b> tuşunu kullanınız.<br/>' +
@@ -243,7 +243,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 			instFirstCombinedTouch:[
 				'<div>',
 					'<p align="center">',
-						'<u>Part blockNum of nBlocks</u>',
+						'<u>Bölüm blockNum / nBlocks</u>',
 					'</p>',
 					'<br/>',
 					'<br/>',
@@ -257,7 +257,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 			].join('\n'),
 
 			instSecondCombined : '<div><p align="center" style="font-size:20px; font-family:arial">' +
-				'<font color="#000000"><u>Part blockNum of nBlocks </u><br/><br/></p>' +
+				'<font color="#000000"><u>Bölüm blockNum / nBlocks </u><br/><br/></p>' +
 				'<p style="font-size:20px; text-align:left; vertical-align:bottom; margin-left:10px; font-family:arial">' +
 				'Bu bölüm önceki bölümle aynıdır..<br/>' +
 				'<font color="#336600">leftCategory</font> ve <font color="#0000ff">leftAttribute</font> için <b>E</b> tuşunu kullanınız.<br/>' +
@@ -267,7 +267,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 				'<p align="center">Hazır olduğunda <b>boşluk tuşuna</b> bas.</font></p></div>',
 			instSecondCombinedTouch:[
 				'<div>',
-					'<p align="center"><u>Part blockNum of nBlocks</u></p>',
+					'<p align="center"><u>Bölüm blockNum / nBlocks</u></p>',
 					'<br/>',
 					'<br/>',
 
@@ -282,7 +282,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 			].join('\n'),
 
 			instSwitchCategories : '<div><p align="center" style="font-size:20px; font-family:arial">' +
-				'<font color="#000000"><u>Part blockNum of nBlocks </u><br/><br/></p>' +
+				'<font color="#000000"><u>Bölüm blockNum / nBlocks </u><br/><br/></p>' +
 				'<p style="font-size:20px; text-align:left; vertical-align:bottom; margin-left:10px; font-family:arial">' +
 				'<b>Dikkat! Başlıkların yeri değişti.</b><br/>' +
 				'<font color="#336600">leftCategory</font> için <b>E</b> tuşunu kullanınız.<br/>' +
@@ -292,7 +292,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 			instSwitchCategoriesTouch: [
 				'<div>',
 					'<p align="center">',
-						'<u>Part blockNum of nBlocks</u>',
+						'<u>Bölüm blockNum / nBlocks</u>',
 					'</p>',
 					'<p align="left" style="margin-left:5px">',
 						'<br/>',
