@@ -316,12 +316,12 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 			//Texts for the trials that show the debriefing.
 			preDebriefingText : 'Press space to see your result', //Text in the trial that comes before showing the debriefing.
 			preDebriefingTouchText : 'Touch the bottom green area to see your result', //Touch version for the text in the trial that comes before showing the debriefing.
-			debriefingTextTop : 'Your result:', //Will be shown above the feedback text.
+			debriefingTextTop : 'Sonucunuz:', //Will be shown above the feedback text.
 			//ATTENTION: We do not recommend showing participants their results. The IAT is a typical psychological measure so it is not very accurate. 
 			//In Project Implicit's website, you can see that we added much text to explain that there is still much unknown about the meaning of these results.
 			//We strongly recommend that you provide all these details in the debriefing of the experiment.
 			debriefingTextBottom : 'This result is not a definitive assessment of your attitudes. It is provided for educational purposes only.  Press space to continue.', //Will be shown below the feedback text. 
-            debriefingTextBottomTouch : 'Sonuçları görmek için boşluk tuşuna basınız.',
+            		debriefingTextBottomTouch : 'Sonuçları görmek için boşluk tuşuna basınız.',
 			//The default feedback messages for each cutoff -
 			//attribute1, and attribute2 will be replaced with the name of attribute1 and attribute2.
 			//categoryA is the name of the category that is found to be associated with attribute1,
@@ -1305,12 +1305,8 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
                     inherit: 'Default',
                     media :{word: ('<%=current.feedback%>') },
                     location:{left:2,top:30,right:2}
-                },
-                {
-					inherit : 'Default',
-                    media : {word : (isTouch ? piCurrent.debriefingTextBottomTouch:piCurrent.debriefingTextBottom)},
-                    location:{left:2,top:45,right:2}
                 }
+               
              
                 
                 
