@@ -314,22 +314,22 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 
 			showDebriefing:true, //Show feedback in the last trial? Relevant only in a Qualtrics IAT because in Qualtrics we cannot access the saved feedback and IAT score later in the survey.
 			//Texts for the trials that show the debriefing.
-			preDebriefingText : 'Press space to see your result', //Text in the trial that comes before showing the debriefing.
+			preDebriefingText : 'Lütfen sonucunuzu görmek için boşluk tuşuna basınız.', //Text in the trial that comes before showing the debriefing.
 			preDebriefingTouchText : 'Touch the bottom green area to see your result', //Touch version for the text in the trial that comes before showing the debriefing.
 			debriefingTextTop : 'Sonucunuz:', //Will be shown above the feedback text.
 			//ATTENTION: We do not recommend showing participants their results. The IAT is a typical psychological measure so it is not very accurate. 
 			//In Project Implicit's website, you can see that we added much text to explain that there is still much unknown about the meaning of these results.
 			//We strongly recommend that you provide all these details in the debriefing of the experiment.
 			debriefingTextBottom : 'This result is not a definitive assessment of your attitudes. It is provided for educational purposes only.  Press space to continue.', //Will be shown below the feedback text. 
-            		debriefingTextBottomTouch : 'Sonuçları görmek için boşluk tuşuna basınız.',
+            		debriefingTextBottomTouch : 'Sonucu görmek için boşluk tuşuna basınız.',
 			//The default feedback messages for each cutoff -
 			//attribute1, and attribute2 will be replaced with the name of attribute1 and attribute2.
 			//categoryA is the name of the category that is found to be associated with attribute1,
 			//and categoryB is the name of the category that is found to be associated with attribute2.
-			fb_strong_Att1WithCatA_Att2WithCatB : 'Sonucunuz güçlü düzeyde categoryB attribute2 ve categoryA attribute1 için bağlantı kurdu.',
-			fb_moderate_Att1WithCatA_Att2WithCatB : 'Sonucunuz orta düzeyde categoryB attribute2 ve categoryA attribute1 için bağlantı kurdu.',
-			fb_slight_Att1WithCatA_Att2WithCatB : 'Sonucunuz az düzeyde categoryB/attribute2 ve categoryA/attribute1 için bağlantı kurdu.',
-			fb_equal_CatAvsCatB : 'Sonucuz categoryA/attribute1 ve categoryB/attribute2 bağlantı bulamadı.',
+			fb_strong_Att1WithCatA_Att2WithCatB : 'Sonucunuz güçlü düzeyde categoryB ile attribute2 ve categoryA ile attribute1 içinbağlantı kurdu.',
+			fb_moderate_Att1WithCatA_Att2WithCatB : 'Sonucunuz orta düzeyde categoryB ile attribute2 ve categoryA ile attribute1 için bağlantı kurdu.',
+			fb_slight_Att1WithCatA_Att2WithCatB : 'Sonucunuz az düzeyde categoryB ile attribute2 ve categoryA ile attribute1 için bağlantı kurdu.',
+			fb_equal_CatAvsCatB : 'Sonucuz categoryA ile attribute1 ve categoryB ile attribute2 için bağlantı bulamadı.',
 
 			//Error messages in the feedback
 			manyErrors: 'Çok fazla yanlış olduğu için ölçüm yapılamadı.',
