@@ -51,10 +51,10 @@ define(['pipAPI', 'https://merte1.github.io/IAT-TRR.js'], function(APIConstructo
 			},
 			stimulusMedia : [ //Stimuli content as PIP's media objects
             	{word: 'Emrah'},
-				{word: 'Kemal'},
-				{word: 'Cengiz'},
-				{word: 'Ramiz'},
-				{word: 'Eren'}
+				{word: 'Ali'},
+				{word: 'Batuhan'},
+				{word: 'Mustafa'},
+				{word: 'Mehmet'}
 			],
 			//Stimulus css
 			stimulusCss : {color:'#0000FF','font-size':'2.3em'}
@@ -70,9 +70,9 @@ define(['pipAPI', 'https://merte1.github.io/IAT-TRR.js'], function(APIConstructo
 			stimulusMedia : [ //Stimuli content as PIP's media objects
           {word: 'Kübra'},
 				{word: 'Merve'},
-				{word: 'Esra'},
+				{word: 'Zeynep'},
 				{word: 'Gözde'},
-				{word: 'Burcu'}
+				{word: 'Hilal'}
 			],
 			//Stimulus css
 			stimulusCss : {color:'#0000FF','font-size':'2.3em'}
