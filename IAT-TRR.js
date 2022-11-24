@@ -142,11 +142,11 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 			remindError : true,
 
 			remindErrorText : '<p align="center" style="font-size:"0.6em"; font-family:arial">' +
-			'Eğer hata yaparsanız, kırmızı bir <font color="#ff0000"><b>X</b></font> görünecektir. ' +
+			'Eğer hata yaparsanız, kırmızı bir <font color="#ff0000"><b>X</b></font> görünecektir.<br/> ' +
 			'Devam etmek için diğer tuşa basınız.<p/>',
 
 			remindErrorTextTouch : '<p align="center" style="font-size:"1.4em"; font-family:arial">' +
-			'Eğer hata yaparsanız, kırmızı bir <font color="#ff0000"><b>X</b></font> görünecektir. ' +
+			'Eğer hata yaparsanız, kırmızı bir <font color="#ff0000"><b>X</b></font> görünecektir.<br/> ' +
 			'Devam etmek için diğer tuşa basınız.<p/>',
 
 			errorCorrection : true, //Should participants correct error responses?
@@ -182,7 +182,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 				'<p style="font-size:20px; text-align:left; vertical-align:bottom; margin-left:10px; font-family:arial">' +
 				'<font color="#0000ff">leftAttribute.</font> kategorisine ait öğeleri seçmek için sol parmağını <b>E</b> tuşu üzerine koy  ' +
 				'<br/><font color="#0000ff">rightAttribute</font> kategorisine ait öğeleri seçmek için sağ parmağını <b>I</b> tuşu üzerine koy  <br/><br/>' +
-				'Eğer bir hata yaparsan, kırmızı bir <font color="#ff0000"><b>X</b></font> görünecektir. ' +
+				'Eğer bir hata yaparsan, kırmızı bir <font color="#ff0000"><b>X</b></font> görünecektir.<br/> ' +
 				'Devam etmek için diğer tuşa basınız.<br/>' +
 				'<u>Eşleştirme doğruysa, mümkün olduğu kadar hızlı cevap veriniz </u>.<br/><br/></p>'+
 				'<p align="center"><b>Boşluk</b> tuşuna bas başlamaya hazır olduğunda.</font></p></div>',
@@ -206,8 +206,8 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 			instCategoriesPractice: '<div><p align="center" style="font-size:20px; font-family:arial">' +
 				'<font color="#000000"><u>Bölüm blockNum / nBlocks </u><br/><br/></p>' +
 				'<p style="font-size:20px; text-align:left; vertical-align:bottom; margin-left:10px; font-family:arial">' +
-				'<font color="#336600">leftCategory</font> kategorisine ait öğeleri seçmek için sol parmağını  <b>E</b> üzerine koy ' +
-				'<br/><font color="#336600">rightCategory</font> kategorisine ait öğeleri seçmek için sağ parmağını  <b>I</b> üzerine koy <br/>' +
+				'<font color="#336600">leftCategory</font> kategorisine ait öğeleri seçmek için sol parmağını  <b>E</b> üzerine koy. ' +
+				'<br/><font color="#336600">rightCategory</font> kategorisine ait öğeleri seçmek için sağ parmağını  <b>I</b> üzerine koy. <br/>' +
 				'Öğeler birer birer görünecektir.<br/><br/>' +
 				'Eğer hata yaparsanız, kırmızı bir <font color="#ff0000"><b>X</b></font> görünecektir.<br/> ' +
 				'Devam etmek için diğer tuşa basınız.<br/>' +
@@ -236,7 +236,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 				'<font color="#336600">leftCategory</font> ve <font color="#0000ff">leftAttribute</font> için <b>E</b> tuşunu kullanınız.<br/>' +
 				'<font color="#336600">rightCategory</font> ve <font color="#0000ff">rightAttribute</font> için  <b>I</b> tuşunu kullanınız.<br/>' +
 				'Her öğe yalnızca bir kategoriye aittir.<br/><br/>' +
-				'Eğer hata yaparsanız, kırmızı bir <font color="#ff0000"><b>X</b></font> görünecektir. ' +
+				'Eğer hata yaparsanız, kırmızı bir <font color="#ff0000"><b>X</b></font> görünecektir.<br/> ' +
 				'Devam etmek için diğer tuşa basınız.<br/>' + 
 				'<u>Eşleştirme doğruysa, mümkün olduğu kadar hızlı cevap veriniz </u>.<br/><br/></p>' +
 				'<p align="center">Hazır olduğunda <b>boşluk tuşuna</b> bas.</font></p></div>',
