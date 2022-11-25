@@ -327,8 +327,8 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 			//categoryA is the name of the category that is found to be associated with attribute1,
 			//and categoryB is the name of the category that is found to be associated with attribute2.
 			fb_strong_Att1WithCatA_Att2WithCatB : 'categoryB ile attribute2 ve categoryA ile attribute1 ilişkilendiren <strong>güçlü düzeyde</strong> bilinçsiz önyargıya sahipsiniz. ',
-			fb_moderate_Att1WithCatA_Att2WithCatB : '<div><p> categoryB ile attribute2 ve categoryA ile attribute1 ilişkilendiren <strong>orta düzeyde</strong> bilinçsiz önyargıya sahipsiniz.',
-			fb_slight_Att1WithCatA_Att2WithCatB : '<div><p> categoryB ile attribute2 ve categoryA ile attribute1 ilişkilendiren <strong>az düzeyde</strong> bilinçsiz önyargıya sahipsiniz.',
+			fb_moderate_Att1WithCatA_Att2WithCatB : ' categoryB ile attribute2 ve categoryA ile attribute1 ilişkilendiren <strong>orta düzeyde</strong> bilinçsiz önyargıya sahipsiniz.',
+			fb_slight_Att1WithCatA_Att2WithCatB : ' categoryB ile attribute2 ve categoryA ile attribute1 ilişkilendiren <strong>az düzeyde</strong> bilinçsiz önyargıya sahipsiniz.',
 			fb_equal_CatAvsCatB : 'Bilinçsiz önyargıya sahip değilsiniz.',
 
 			//Error messages in the feedback
