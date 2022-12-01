@@ -142,11 +142,11 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 			remindError : true,
 
 			remindErrorText : '<p align="center" style="font-size:"0.6em"; font-family:arial">' +
-			'Eğer hata yaparsanız, kırmızı bir <font color="#ff0000"><b>X</b></font> görünecektir.' +
+			'Eğer hata yaparsanız, kırmızı bir <font color="#ff0000"><b>X</b></font> görünecektir. ' +
 			'Devam etmek için diğer tuşa basınız.<p/>',
 
 			remindErrorTextTouch : '<p align="center" style="font-size:"1.4em"; font-family:arial">' +
-			'Eğer hata yaparsanız, kırmızı bir <font color="#ff0000"><b>X</b></font> görünecektir.' +
+			'Eğer hata yaparsanız, kırmızı bir <font color="#ff0000"><b>X</b></font> görünecektir. ' +
 			'Devam etmek için diğer tuşa basınız.<p/>',
 
 			errorCorrection : true, //Should participants correct error responses?
@@ -180,9 +180,9 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 			instAttributePractice: '<div><p align="center" style="font-size:20px; font-family:arial">' +
 				'<font color="#000000"><u>Bölüm blockNum / nBlocks </u><br/><br/></p>' +
 				'<p style="font-size:20px; text-align:left; vertical-align:bottom; margin-left:10px; font-family:arial">' +
-				'<font color="#0000ff">leftAttribute.</font> kategorisine ait öğeleri seçmek için sol parmağını <b>E</b> tuşu üzerine koy  ' +
-				'<br/><font color="#0000ff">rightAttribute</font> kategorisine ait öğeleri seçmek için sağ parmağını <b>I</b> tuşu üzerine koy  <br/><br/>' +
-				'Eğer bir hata yaparsan, kırmızı bir <font color="#ff0000"><b>X</b></font> görünecektir.<br/> ' +
+				'Sol parmağını <b>E</b> tuşu üzerine koy kategoriye ait öğeleri seçmek için <font color="#0000ff">leftAttribute.</font>' +
+				'<br/>Sağ parmağını <b>I</b> tuşu üzerine koy kategoriye ait öğeleri seçmek için <font color="#0000ff">rightAttribute</font>.<br/><br/>' +
+				'Eğer bir hata yaparsan, kırmızı bir <font color="#ff0000"><b>X</b></font> görünecektir. ' +
 				'Devam etmek için diğer tuşa basınız.<br/>' +
 				'<u>Eşleştirme doğruysa, mümkün olduğu kadar hızlı cevap veriniz </u>.<br/><br/></p>'+
 				'<p align="center"><b>Boşluk</b> tuşuna bas başlamaya hazır olduğunda.</font></p></div>',
@@ -206,10 +206,10 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 			instCategoriesPractice: '<div><p align="center" style="font-size:20px; font-family:arial">' +
 				'<font color="#000000"><u>Bölüm blockNum / nBlocks </u><br/><br/></p>' +
 				'<p style="font-size:20px; text-align:left; vertical-align:bottom; margin-left:10px; font-family:arial">' +
-				'<font color="#336600">leftCategory</font> kategorisine ait öğeleri seçmek için sol parmağını  <b>E</b> üzerine koy. ' +
-				'<br/><font color="#336600">rightCategory</font> kategorisine ait öğeleri seçmek için sağ parmağını  <b>I</b> üzerine koy. <br/>' +
+				'Sol parmağını  <b>E</b> üzerine koy kategoriye ait öğeleri seçmek için <font color="#336600">leftCategory</font>. ' +
+				'<br/>Sağ parmağını  <b>I</b> üzerine koy kategoriye ait öğeleri seçmek için <font color="#336600">rightCategory</font>.<br/>' +
 				'Öğeler birer birer görünecektir.<br/><br/>' +
-				'Eğer hata yaparsanız, kırmızı bir <font color="#ff0000"><b>X</b></font> görünecektir.<br/> ' +
+				'Eğer hata yaparsanız, kırmızı bir <font color="#ff0000"><b>X</b></font> görünecektir. ' +
 				'Devam etmek için diğer tuşa basınız.<br/>' +
 				'<u>Eşleştirme doğruysa, mümkün olduğu kadar hızlı cevap veriniz </u>.<br/><br/></p>'+
 				'<p align="center">Hazır olduğunda <b>boşluk tuşuna</b> bas.</font></p></div>',
@@ -236,7 +236,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 				'<font color="#336600">leftCategory</font> ve <font color="#0000ff">leftAttribute</font> için <b>E</b> tuşunu kullanınız.<br/>' +
 				'<font color="#336600">rightCategory</font> ve <font color="#0000ff">rightAttribute</font> için  <b>I</b> tuşunu kullanınız.<br/>' +
 				'Her öğe yalnızca bir kategoriye aittir.<br/><br/>' +
-				'Eğer hata yaparsanız, kırmızı bir <font color="#ff0000"><b>X</b></font> görünecektir.<br/> ' +
+				'Eğer hata yaparsanız, kırmızı bir <font color="#ff0000"><b>X</b></font> görünecektir. ' +
 				'Devam etmek için diğer tuşa basınız.<br/>' + 
 				'<u>Eşleştirme doğruysa, mümkün olduğu kadar hızlı cevap veriniz </u>.<br/><br/></p>' +
 				'<p align="center">Hazır olduğunda <b>boşluk tuşuna</b> bas.</font></p></div>',
@@ -259,7 +259,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 			instSecondCombined : '<div><p align="center" style="font-size:20px; font-family:arial">' +
 				'<font color="#000000"><u>Bölüm blockNum / nBlocks </u><br/><br/></p>' +
 				'<p style="font-size:20px; text-align:left; vertical-align:bottom; margin-left:10px; font-family:arial">' +
-				'Bu bölüm önceki bölümle aynıdır.<br/>' +
+				'Bu bölüm önceki bölümle aynıdır..<br/>' +
 				'<font color="#336600">leftCategory</font> ve <font color="#0000ff">leftAttribute</font> için <b>E</b> tuşunu kullanınız.<br/>' +
 				'<font color="#336600">rightCategory</font> ve <font color="#0000ff">rightAttribute</font> için  <b>I</b> tuşunu kullanınız.<br/>' +
 				'Her öğe yalnızca bir kategoriye aittir.<br/><br/>' +
@@ -321,14 +321,14 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 			//In Project Implicit's website, you can see that we added much text to explain that there is still much unknown about the meaning of these results.
 			//We strongly recommend that you provide all these details in the debriefing of the experiment.
 			debriefingTextBottom : 'This result is not a definitive assessment of your attitudes. It is provided for educational purposes only.  Press space to continue.', //Will be shown below the feedback text. 
-            		debriefingTextBottomTouch : 'Sonucu görmek için boşluk tuşuna basınız.',
+            debriefingTextBottomTouch : 'This result is not a definitive assessment of your attitudes. It is provided for educational purposes only.  Touch the green area to continue.',
 			//The default feedback messages for each cutoff -
 			//attribute1, and attribute2 will be replaced with the name of attribute1 and attribute2.
 			//categoryA is the name of the category that is found to be associated with attribute1,
 			//and categoryB is the name of the category that is found to be associated with attribute2.
 			fb_strong_Att1WithCatA_Att2WithCatB : 'categoryB ile attribute2 ve categoryA ile attribute1 ilişkilendiren güçlü düzeyde bilinçsiz önyargıya sahipsiniz.',
-			fb_moderate_Att1WithCatA_Att2WithCatB : ' categoryB ile attribute2 ve categoryA ile attribute1 ilişkilendiren orta düzeyde bilinçsiz önyargıya sahipsiniz.',
-			fb_slight_Att1WithCatA_Att2WithCatB : ' categoryB ile attribute2 ve categoryA ile attribute1 ilişkilendiren az düzeyde bilinçsiz önyargıya sahipsiniz.',
+			fb_moderate_Att1WithCatA_Att2WithCatB : 'categoryB ile attribute2 ve categoryA ile attribute1 ilişkilendiren orta düzeyde bilinçsiz önyargıya sahipsiniz.',
+			fb_slight_Att1WithCatA_Att2WithCatB : 'categoryB ile attribute2 ve categoryA ile attribute1 ilişkilendiren az düzeyde bilinçsiz önyargıya sahipsiniz.',
 			fb_equal_CatAvsCatB : 'Bilinçsiz önyargıya sahip değilsiniz.',
 
 			//Error messages in the feedback
@@ -1306,7 +1306,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
                     media :{word: ('<%=current.feedback%>') },
                     location:{left:2,top:30,right:2}
                 }
-               
+                
              
                 
                 
