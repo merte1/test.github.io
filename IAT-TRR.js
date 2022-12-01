@@ -259,7 +259,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 			instSecondCombined : '<div><p align="center" style="font-size:20px; font-family:arial">' +
 				'<font color="#000000"><u>Bölüm blockNum / nBlocks </u><br/><br/></p>' +
 				'<p style="font-size:20px; text-align:left; vertical-align:bottom; margin-left:10px; font-family:arial">' +
-				'Bu bölüm önceki bölümle aynıdır..<br/>' +
+				'Bu bölüm önceki bölümle aynıdır.<br/>' +
 				'<font color="#336600">leftCategory</font> ve <font color="#0000ff">leftAttribute</font> için <b>E</b> tuşunu kullanınız.<br/>' +
 				'<font color="#336600">rightCategory</font> ve <font color="#0000ff">rightAttribute</font> için  <b>I</b> tuşunu kullanınız.<br/>' +
 				'Her öğe yalnızca bir kategoriye aittir.<br/><br/>' +
@@ -326,15 +326,15 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 			//attribute1, and attribute2 will be replaced with the name of attribute1 and attribute2.
 			//categoryA is the name of the category that is found to be associated with attribute1,
 			//and categoryB is the name of the category that is found to be associated with attribute2.
-			fb_strong_Att1WithCatA_Att2WithCatB : 'categoryB ile attribute2 ve categoryA ile attribute1 ilişkilendiren güçlü düzeyde bilinçsiz önyargıya sahipsiniz.',
-			fb_moderate_Att1WithCatA_Att2WithCatB : 'categoryB ile attribute2 ve categoryA ile attribute1 ilişkilendiren orta düzeyde bilinçsiz önyargıya sahipsiniz.',
-			fb_slight_Att1WithCatA_Att2WithCatB : 'categoryB ile attribute2 ve categoryA ile attribute1 ilişkilendiren az düzeyde bilinçsiz önyargıya sahipsiniz.',
-			fb_equal_CatAvsCatB : 'Bilinçsiz önyargıya sahip değilsiniz.',
+			fb_strong_Att1WithCatA_Att2WithCatB : 'categoryB ile attribute2 ve categoryA ile attribute1 ilişkilendiren güçlü düzeyde bilinçsiz önyargıya sahipsiniz.\uD83D\uDE41',
+			fb_moderate_Att1WithCatA_Att2WithCatB : 'categoryB ile attribute2 ve categoryA ile attribute1 ilişkilendiren orta düzeyde bilinçsiz önyargıya sahipsiniz.\uD83D\uDE10',
+			fb_slight_Att1WithCatA_Att2WithCatB : 'categoryB ile attribute2 ve categoryA ile attribute1 ilişkilendiren az düzeyde bilinçsiz önyargıya sahipsiniz.\uD83D\uDE42',
+			fb_equal_CatAvsCatB : 'Bilinçsiz önyargıya sahip değilsiniz.\uD83E\uDD73',
 
 			//Error messages in the feedback
-			manyErrors: 'Çok fazla yanlış olduğu için ölçüm yapılamadı.',
-			tooFast: 'Çok hızlı ilerlendiği için ölçüm yapılamadı.',
-			notEnough: 'Sonucu belirlemek için yeterli deneme yoktu.'
+			manyErrors: 'Çok fazla yanlış olduğu için ölçüm yapılamadı.\uD83D\uDE1E',
+			tooFast: 'Çok hızlı ilerlendiği için ölçüm yapılamadı. \uD83D\uDE1E',
+			notEnough: 'Sonucu belirlemek için yeterli deneme yoktu. \uD83D\uDE1E',
 		};
 
 		// extend the "current" object with the default
