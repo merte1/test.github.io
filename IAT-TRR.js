@@ -326,10 +326,10 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 			//attribute1, and attribute2 will be replaced with the name of attribute1 and attribute2.
 			//categoryA is the name of the category that is found to be associated with attribute1,
 			//and categoryB is the name of the category that is found to be associated with attribute2.
-			fb_strong_Att1WithCatA_Att2WithCatB : 'categoryB ile attribute2 ve categoryA ile attribute1 ilişkilendiren güçlü düzeyde bilinçsiz önyargıya sahipsiniz. ',
-			fb_moderate_Att1WithCatA_Att2WithCatB : ' categoryB ile attribute2 ve categoryA ile attribute1 ilişkilendiren orta düzeyde bilinçsiz önyargıya sahipsiniz.',
-			fb_slight_Att1WithCatA_Att2WithCatB : ' categoryB ile attribute2 ve categoryA ile attribute1 ilişkilendiren az düzeyde bilinçsiz önyargıya sahipsiniz.',
-			fb_equal_CatAvsCatB : 'Bilinçsiz önyargıya sahip değilsiniz.',
+			fb_strong_Att1WithCatA_Att2WithCatB : 'categoryB ile attribute2 ve categoryA ile attribute1 ilişkilendiren güçlü düzeyde bilinçsiz önyargıya sahipsiniz. ' + <p> &#128528; </p>,
+			fb_moderate_Att1WithCatA_Att2WithCatB : ' categoryB ile attribute2 ve categoryA ile attribute1 ilişkilendiren orta düzeyde bilinçsiz önyargıya sahipsiniz.'+ <p> &#128528; </p>,
+			fb_slight_Att1WithCatA_Att2WithCatB : ' categoryB ile attribute2 ve categoryA ile attribute1 ilişkilendiren az düzeyde bilinçsiz önyargıya sahipsiniz.' + <p> &#128528; </p>,
+			fb_equal_CatAvsCatB : 'Bilinçsiz önyargıya sahip değilsiniz.'+ <p> &#128528; </p>,
 
 			//Error messages in the feedback
 			manyErrors: 'Çok fazla yanlış olduğu için ölçüm yapılamadı.',
