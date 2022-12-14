@@ -1,17 +1,17 @@
-define(['pipAPI', 'https://merte1.github.io/IAT-TR.js'], function(APIConstructor, iatExtension){
+define(['pipAPI', 'https://merte1.github.io/IAT-TRR.js'], function(APIConstructor, iatExtension){
     var API = new APIConstructor();
 var posWords = API.shuffle([
-            'Aşk', 'Neşe', 'Arkadaş', 'Haz', 
-            'Hayran olmak', 'Neşeli', 'Dostluk', 'Neşeli', 
-            'Gülümseyen','Değer Vermek', 'Harika', 'Memnun', 
+            'Aşk', 'Neşe', 'Arkadaş', 'Keyif', 
+            'Sevmek', 'Neşeli', 'Dostluk', 'Neşeli', 
+            'Gülümseyen','Değerli', 'Harika', 'Memnun', 
             'Sevinçli', 'Muhteşem', 'Çekici', 'Zevk', 
             'Heyecan', 'Güleç', 'Cazibeli','Nefis', 
             'Efsanevi', 'Şanlı', 'Sevimli', 'Güzel', 
             'Harika', 'Mutlu', 'Latif', 'Olağanüstü', 
             'Övmek', 'Hoşlanmak', 'Fevkalade', 'Zafer']);
   var negWords = API.shuffle([
-            'Suistimal', 'Keder', 'Zehir', 'Üzgünlük', 
-            'Acı', 'Aşağılamak', 'Başarısızlık', 'Edepsiz', 
+            'Suistimal', 'Keder', 'Zehir', 'Üzgün', 
+            'Acı', 'Aşağılamak', 'Başarısız', 'Edepsiz', 
             'Sinirli', 'Tiksinmek', 'Korkunç', 'Olumsuz', 
             'Çirkin', 'Kirli', 'Çirkin', 'Fena', 
             'Rezalet','Sinir Bozucu', 'Felaket', 'Ürkünç',  
