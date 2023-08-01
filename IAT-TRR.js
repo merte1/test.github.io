@@ -181,7 +181,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 				'<font color="#000000"><u>Bölüm blockNum / nBlocks </u><br/><br/></p>' +
 				'<p style="font-size:20px; text-align:left; vertical-align:bottom; margin-left:10px; font-family:arial">' +
 				'<font color="#0000ff">leftAttribute.</font> kategorisine ait maddeler için sol işaret parmağını <b>E</b> tuşu üzerine koy' +
-				'<font color="#0000ff">rightAttribute</font> kategorisine ait maddeler için sağ işaret parmağını <b>I</b> tuşu üzerine koy' + .<br/><br/>
+				'<font color="#0000ff">rightAttribute</font> kategorisine ait maddeler için sağ işaret parmağını <b>I</b> tuşu üzerine koy.<br/><br/>' + 
 				'Eğer bir hata yaparsan, kırmızı bir <font color="#ff0000"><b>X</b></font> görünecektir. ' +
 				'Devam etmek için diğer tuşa basınız.<br/>' +
 				'<u>Eşleştirme doğruysa, mümkün olduğu kadar hızlı cevap veriniz </u>.<br/><br/></p>'+
@@ -207,7 +207,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 				'<font color="#000000"><u>Bölüm blockNum / nBlocks </u><br/><br/></p>' +
 				'<p style="font-size:20px; text-align:left; vertical-align:bottom; margin-left:10px; font-family:arial">' +
 				'<font color="#0000ff">leftAttribute.</font> kategorisine ait maddeler için sol işaret parmağını <b>E</b> tuşu üzerine koy' +
-				'<font color="#0000ff">rightAttribute</font> kategorisine ait maddeler için sağ işaret parmağını <b>I</b> tuşu üzerine koy' + .<br/><br/>
+				'<font color="#0000ff">rightAttribute</font> kategorisine ait maddeler için sağ işaret parmağını <b>I</b> tuşu üzerine koy.<br/><br/>' + 
 				'Öğeler birer birer görünecektir.<br/><br/>' +
 				'Eğer hata yaparsanız, kırmızı bir <font color="#ff0000"><b>X</b></font> görünecektir. ' +
 				'Devam etmek için diğer tuşa basınız.<br/>' +
