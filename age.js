@@ -1,4 +1,4 @@
-define(['pipAPI', 'https://merte1.github.io/IAT-TRR.js'], function(APIConstructor, iatExtension){
+define(['pipAPI', '/IAT-TRR.js' + uniqueId()], function(APIConstructor, iatExtension){
     var API = new APIConstructor();
 var posWords = API.shuffle([
             'Aşk', 'Neşe', 'Arkadaş', 'Keyif', 
@@ -102,3 +102,5 @@ var posWords = API.shuffle([
 		} 
 	});
 });
+
+let uniqueId = () => Date.now().toString(36) + Math.random().toString(36).substring(2);
