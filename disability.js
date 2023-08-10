@@ -20,9 +20,9 @@ var posWords = API.shuffle([
             'Kin', 'Kırıcı', 'Bıktırıcı', 'İğrenç']);
 	return iatExtension({
 		category1 : {
-			name : 'Engelli Birey', //Will appear in the data.
+			name : 'Fiziksel Engelli Birey', //Will appear in the data.
 			title : {
-				media : {word : 'Engelli Birey'}, //Name of the category presented in the task.
+				media : {word : 'Fiziksel Engelli Birey'}, //Name of the category presented in the task.
 				css : {color:'#31940F','font-size':'1.8em'}, //Style of the category title.
 				height : 4 //Used to position the "Or" in the combined block.
 			}, 
@@ -36,9 +36,9 @@ var posWords = API.shuffle([
 			stimulusCss : {color:'#31940F','font-size':'1.8em'}
 		},	
 		category2 :	{
-			name : 'Engelsiz Birey', //Will appear in the data.
+			name : 'Fiziksel Engelsiz Birey', //Will appear in the data.
 			title : {
-				media : {word : 'Engelsiz Birey'}, //Name of the category presented in the task.
+				media : {word : 'Fiziksel Engelsiz Birey'}, //Name of the category presented in the task.
 				css : {color:'#31940F','font-size':'1.8em'}, //Style of the category title.
 				height : 4 //Used to position the "Or" in the combined block.
 			}, 

@@ -12,7 +12,7 @@ define(['pipAPI', window.koc.sourceBase + '/IAT-TRR.js'], function(APIConstructo
 			}, 
 			stimulusMedia : [ //Stimuli content as PIP's media objects
             {word: 'Kariyer'},
-				{word: 'Kurum'},
+				{word: 'Kuruluş'},
 				{word: 'Maaş'},
 				{word: 'Ofis'},
 				{word: 'Profesyonel'},
