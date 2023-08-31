@@ -1,23 +1,25 @@
 define(['pipAPI', window.koc.sourceBase + '/IAT-TRR.js'], function(APIConstructor, iatExtension){
     var API = new APIConstructor();
 var posWords = API.shuffle([
-            'Aşk', 'Neşe', 'Arkadaş', 'Keyif', 
-            'Sevmek', 'Neşeli', 'Dostluk', 'Neşeli', 
-            'Gülümseyen','Değerli', 'Harika', 'Memnun', 
-            'Sevinçli', 'Muhteşem', 'Çekici', 'Zevk', 
-            'Heyecan', 'Güleç', 'Cazibeli','Nefis', 
-            'Efsanevi', 'Şanlı', 'Sevimli', 'Güzel', 
-            'Harika', 'Mutlu', 'Latif', 'Olağanüstü', 
-            'Övmek', 'Hoşlanmak', 'Fevkalade', 'Zafer']);
+            'Güzel', 
+            'Arkadaş', 
+            'Arkadaşlık', 
+            'Mükemmel', 
+            'Muhteşem', 
+            'Olağanüstü', 
+            'Mutlu', 
+            'Şanlı'
+		]);
   var negWords = API.shuffle([
-            'Suistimal', 'Keder', 'Zehir', 'Üzgün', 
-            'Acı', 'Aşağılamak', 'Başarısız', 'Edepsiz', 
-            'Sinirli', 'Tiksinmek', 'Korkunç', 'Olumsuz', 
-            'Çirkin', 'Kirli', 'Çirkin', 'Fena', 
-            'Rezalet','Sinir Bozucu', 'Felaket', 'Ürkünç',  
-            'Tahkir', 'Berbat', 'İğrenç', 'Nefret', 
-            'Aşağılama', 'Bencil', 'Acıklı', 'Tedirgin', 
-            'Kin', 'Kırıcı', 'Bıktırıcı', 'İğrenç']);
+            'Tiksinme',
+            'Aşağılama',
+            'Nefret',
+            'Korkunç',
+            'Öfkeli',
+            'Rezalet',
+            'Felaket',
+            'Trajik'
+		]);
 	return iatExtension({
 		category1 : {
 			name : 'Yaşlı Birey', //Will appear in the data.

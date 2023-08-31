@@ -11,7 +11,7 @@ define(['pipAPI', window.koc.sourceBase + '/IAT-TRR.js'], function(APIConstructo
 				height : 4 //Used to position the "Or" in the combined block.
 			}, 
 			stimulusMedia : [ //Stimuli content as PIP's media objects
-            {word: 'Kariyer'},
+            	{word: 'Kariyer'},
 				{word: 'Kuruluş'},
 				{word: 'Maaş'},
 				{word: 'Ofis'},
@@ -30,13 +30,13 @@ define(['pipAPI', window.koc.sourceBase + '/IAT-TRR.js'], function(APIConstructo
 				height : 4 //Used to position the "Or" in the combined block.
 			}, 
 			stimulusMedia : [ //Stimuli content as PIP's media objects
-           	{word: 'Düğün'},
+           		{word: 'Düğün'},
 				{word: 'Evlilik'},
 				{word: 'Ebeveyn'},
-				{word: 'Akraba'},
+				{word: 'Akrabalar'},
 				{word: 'Aile'},
-				{word: 'Ev'}, 
-				{word: 'Çocuk'}
+				{word: 'Ev veya yuva'}, 
+				{word: 'Çocuklar'}
 			], 
 			//Stimulus css
 			stimulusCss : {color:'#31940F','font-size':'1.8em'}
