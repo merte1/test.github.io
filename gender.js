@@ -35,7 +35,7 @@ define(['pipAPI', window.koc.sourceBase + '/IAT-TRR.js'], function(APIConstructo
 				{word: 'Ebeveyn'},
 				{word: 'Akrabalar'},
 				{word: 'Aile'},
-				{word: 'Ev veya yuva'}, 
+				{word: 'Ev'}, 
 				{word: 'Çocuklar'}
 			], 
 			//Stimulus css
