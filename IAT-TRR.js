@@ -332,9 +332,9 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 			fb_equal_CatAvsCatB : 'Bilinçsiz önyargıya sahip değilsiniz.\uD83E\uDD73',
 
 			//Error messages in the feedback
-			manyErrors: 'Çok fazla yanlış olduğu için ölçüm yapılamadı.\uD83D\uDE1E',
-			tooFast: 'Çok hızlı ilerlendiği için ölçüm yapılamadı. \uD83D\uDE1E',
-			notEnough: 'Sonucu belirlemek için yeterli deneme yoktu. \uD83D\uDE1E',
+			manyErrors: 'Çok fazla yanlış olduğu için sonuca ulaşılamamıştır.\uD83D\uDE1E',
+			tooFast: 'Çok hızlı ilerlendiği için sonuca ulaşılamamıştır. \uD83D\uDE1E',
+			notEnough: 'Sonucu belirlemek için yeterli sayıda cevap bulunmamaktadır. \uD83D\uDE1E',
 		};
 
 		// extend the "current" object with the default
