@@ -1,10 +1,13 @@
-define(['pipAPI', window.koc.sourceBase + '/IAT-TRR.js'], function(APIConstructor, iatExtension){
+var uniqueId = () => Date.now().toString(36) + Math.random().toString(36).substring(2);
+
+define(['pipAPI', window.koc.sourceBase + '/IAT-TRR.js' + '?r=' + uniqueId()], function(APIConstructor, iatExtension){
     var API = new APIConstructor();
 
 	return iatExtension({
 
 		category1 : {
 			name : 'Kariyer', //Will appear in the data.
+			displayInResultAs: 'Kariyer',
 			title : {
 				media : {word : 'Kariyer'}, //Name of the category presented in the task.
 				css : {color:'#31940F','font-size':'1.8em'}, //Style of the category title.
@@ -24,6 +27,7 @@ define(['pipAPI', window.koc.sourceBase + '/IAT-TRR.js'], function(APIConstructo
 		},	
 		category2 :	{
 			name : 'Aile', //Will appear in the data.
+			displayInResultAs: 'Aile',
 			title : {
 				media : {word : 'Aile'}, //Name of the category presented in the task.
 				css : {color:'#31940F','font-size':'1.8em'}, //Style of the category title.
@@ -44,6 +48,7 @@ define(['pipAPI', window.koc.sourceBase + '/IAT-TRR.js'], function(APIConstructo
 		attribute1 :
 		{
 			name : 'Erkek',
+			displayInResultAs: 'Erkeği',
 			title : {
 				media : {word : 'Erkek'},
 				css : {color:'#0000FF','font-size':'1.8em'},
@@ -62,6 +67,7 @@ define(['pipAPI', window.koc.sourceBase + '/IAT-TRR.js'], function(APIConstructo
 		attribute2 :
 		{
 			name : 'Kadın',
+			displayInResultAs: 'Kadını',
 			title : {
 				media : {word : 'Kadın'},
 				css : {color:'#0000FF','font-size':'1.8em'},

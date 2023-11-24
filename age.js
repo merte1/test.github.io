@@ -1,4 +1,6 @@
-define(['pipAPI', window.koc.sourceBase + '/IAT-TRR.js'], function(APIConstructor, iatExtension){
+var uniqueId = () => Date.now().toString(36) + Math.random().toString(36).substring(2);
+
+define(['pipAPI', window.koc.sourceBase + '/IAT-TRR.js' + '?r=' + uniqueId()], function(APIConstructor, iatExtension){
     var API = new APIConstructor();
 var posWords = API.shuffle([
             'Güzel', 
@@ -23,6 +25,7 @@ var posWords = API.shuffle([
 	return iatExtension({
 		category1 : {
 			name : 'Yaşlı Birey', //Will appear in the data.
+			displayInResultAs: 'Yaşlılık',
 			title : {
 				media : {word : 'Yaşlı Birey'}, //Name of the category presented in the task.
 				css : {color:'#31940F','font-size':'1.8em'}, //Style of the category title.
@@ -41,6 +44,7 @@ var posWords = API.shuffle([
 		},	
 		category2 :	{
 			name : 'Genç Birey', //Will appear in the data.
+			displayInResultAs: 'Gençlik',
 			title : {
 				media : {word : 'Genç Birey'}, //Name of the category presented in the task.
 				css : {color:'#31940F','font-size':'1.8em'}, //Style of the category title.
@@ -60,6 +64,7 @@ var posWords = API.shuffle([
 	attribute1 :
 		{
 			name : 'Kötü',
+			displayInResultAs: 'Kötüyü',
 			title : {
 				media : {word : 'Kötü'},
 				css : {color:'#0000FF','font-size':'1.8em'},
@@ -81,6 +86,7 @@ var posWords = API.shuffle([
 		attribute2 :
 		{
 			name : 'İyi',
+			displayInResultAs: 'İyiyi',
 			title : {
 				media : {word : 'İyi'},
 				css : {color:'#0000FF','font-size':'1.8em'},
@@ -104,3 +110,5 @@ var posWords = API.shuffle([
 		} 
 	});
 });
+
+
