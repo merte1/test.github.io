@@ -5,7 +5,7 @@ define(['pipAPI', window.koc.sourceBase + '/IAT-TRR.js' + '?r=' + uniqueId()], f
 var posWords = API.shuffle([
             'Zafer',
             'Efsanevi',
-            'Tapmak',
+            'Hayranlık',
             'Kutlamak',
             'Neşeli',
             'Zevk',
