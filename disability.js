@@ -1,27 +1,27 @@
 var uniqueId = () => Date.now().toString(36) + Math.random().toString(36).substring(2);
 
-define(['pipAPI', window.koc.sourceBase + '/IAT-TRR.js' + '?r=' + uniqueId()], function (APIConstructor, iatExtension) {
-	var API = new APIConstructor();
-	var posWords = API.shuffle([
-		'Zafer',
-		'Efsanevi',
-		'Tapmak',
-		'Kutlamak',
-		'Neşeli',
-		'Zevk',
-		'Keyif',
-		'Memnun'
-	]);
-	var negWords = API.shuffle([
-		'Negatif',
-		'Korkunç',
-		'Felaket',
-		'Pis',
-		'İğrenç',
-		'Rezalet',
-		'Küçümsemek',
-		'Kırıcı'
-	]);
+define(['pipAPI', window.koc.sourceBase + '/IAT-TRR.js' + '?r=' + uniqueId()], function(APIConstructor, iatExtension){
+    var API = new APIConstructor();
+var posWords = API.shuffle([
+            'Zafer',
+            'Efsanevi',
+            'Hayranlık',
+            'Kutlamak',
+            'Neşeli',
+            'Zevk',
+            'Keyif',
+            'Memnun'
+		]);
+  var negWords = API.shuffle([
+            'Negatif',
+            'Korkunç',
+            'Felaket',
+            'Pis',
+            'İğrenç',
+            'Rezalet',
+            'Küçümsemek',
+            'Kırıcı'
+		]);
 	return iatExtension({
 		category1: {
 			name: 'Fiziksel Engelli Birey', //Will appear in the data.
