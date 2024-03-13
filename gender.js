@@ -39,7 +39,7 @@ define(['pipAPI', window.koc.sourceBase + '/IAT-TRR.js' + '?r=' + uniqueId()], f
 				{ word: 'Ebeveyn' },
 				{ word: 'Akrabalar' },
 				{ word: 'Aile' },
-				{ word: 'Ev veya yuva' },
+				{ word: 'Ev' },
 				{ word: 'Çocuklar' }
 			],
 			//Stimulus css
